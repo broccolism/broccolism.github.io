@@ -57,10 +57,6 @@
   word-break: break-word;
 }
 
-.markdown-body a {
-  background: rgba(175, 204, 129, 0.24);
-}
-
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
@@ -88,17 +84,6 @@
   background-color: #fff;
 }
 
-.markdown-body code {
-  color: rgb(27, 39, 12);
-  padding: 0;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-  margin: 0;
-  font-size: 100%;
-  background-color: #eff8d6d7;
-  border-radius: 3px;
-}
-
 .markdown-body code:before,
 .markdown-body code:after {
   letter-spacing: -0.2em;
@@ -118,16 +103,6 @@
 
 .markdown-body .highlight {
   margin-bottom: 16px;
-}
-
-.markdown-body .highlight pre,
-.markdown-body pre {
-  padding: 16px;
-  overflow: auto;
-  font-size: 100%;
-  line-height: 1.45;
-  background-color: #eff8d6d7;
-  border-radius: 3px;
 }
 
 .markdown-body .highlight pre {
@@ -247,4 +222,37 @@ input[type="checkbox"]:checked ~ ul{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/*in-line 코드 블록*/
+.markdown-body code {
+  color: #2b8a3e;
+  padding: 0;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  margin: 0;
+  font-size: 90%;
+  background-color:#37b24e09;
+  border-radius: 5px;
+}
+
+/*코드 블록*/
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 100%;
+  line-height: 1.45;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #00000033;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/*하이퍼링크*/
+.markdown-body a {
+  color: #333;
+  background: linear-gradient(#ffffff 75%, #12c0328a 25%);
+  padding-bottom: 5px;
 }

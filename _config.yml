@@ -30,7 +30,7 @@ author:
 
 # Fallback image and color
 image:               /assets/img/main_left.jpg
-color:               '#6f9418'
+color:               '#37b24d'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Merriweather-Light','Lato','-apple-system','Verdana','PingFang SC','Helvetica Neue','Arial','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei','sans-serif'"
