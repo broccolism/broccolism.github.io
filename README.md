@@ -16,10 +16,8 @@
 - LaTex for math expressions
 - Disqus for comments
 
-
-
-
-### Tiny Problems
+# Tiny Problems
+  
 를 다뤘던 날을 적는 일기장  
 
 *(2020-04-01 추가)*
