@@ -143,7 +143,7 @@ comments: true
 메인함수를 확인해봅시다. 아까와 동일하게 `QApplication` 을 만든 다음에 창을 지정해주고 있습니다. 이 때 사용한 constructor는 위에서 미리 정의해놓은 `MainWindow` 라는 클래스의 생성자입니다. 이 클래스를 만들 때 `ui_file` 이 필요하고, 이것은 미리 생성해둔 ui 파일을 불러온 것입니다.  
 이렇게 연결을 하는데 성공했다면 이제 메인 루프에서 사용한 이벤트 핸들러를 정의할 차례입니다. 그러니까 유저가 클릭을 하거나 무언가 입력했을 때 프로그램이 어떻게 동작할 지 정해주는 것이죠.  
 PyQt5에서는 여러가지 `virtual function`을 제공하고 있습니다. 이를 override해서 원하는 동작을 수행하도록 하면 됩니다. 예시로는 유저가 엔터키를 쳤을 때 호출할 핸들러를 만들어보았습니다.  
-![e.g last](https://broccolism.github.io/assets/img/others/2020-04-03-3.jpg)
+![e.g last](https://broccolism.github.io/assets/img/others/2020-04-03-3.JPG)
 ```python
     import sys
     from PyQt5.QtWidgets import *
