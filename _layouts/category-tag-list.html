@@ -24,7 +24,7 @@ layout: base
     <ul class="related-posts">
     {% assign tag = currenttag %}
   {% endif %}
-  {% include post-list-item.html post=post format="%d %b" %}
+  {% include post-list-item.html post=post format="%Y.%m.%d" %}
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 {% endfor %}

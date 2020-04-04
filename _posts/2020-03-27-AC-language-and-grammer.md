@@ -122,6 +122,7 @@ $$
 $$
 \begin{aligned}
    &Let \; \Sigma=\{a, b\}\;then \\
+   &\\
    &\Sigma ^0=\{λ\} \\
    &\Sigma ^2=\{aa, ab, ba, bb\} \\
    &\Sigma ^3=\{aaa, aab, aba, abb, baa,bab, bba, bbb\}
@@ -137,6 +138,7 @@ $$
 $$
 \begin{aligned}
    &Let\;L=\{a, ab, b, ba\}\quad then \\
+   &\\
    &L^2=\{aa, aab, ab, aba, abab, abb, abba, ba, bb, bba, baa, baab, bab, baba\}
 \end{aligned}
 $$
@@ -150,6 +152,7 @@ $$
 $$
 \begin{aligned}
    &Let \;L_1 \;and\;L_2\;are\;the\;language\; then \\
+   &\\
    &L_1L_2=\{xy:x \in L_1, \,y \in L_2\}
 \end{aligned}
 $$

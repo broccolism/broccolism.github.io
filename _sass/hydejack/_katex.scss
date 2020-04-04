@@ -11,9 +11,10 @@ article {
 
   div.MathJax_Preview {
     font-family: $code-font-family;
-    font-size: .75em;
+    font-size: 12pt;
     line-height: 1.45;
     white-space: pre;
+    text-indent: 15px;
     margin-bottom: 1rem;
     background-color: rgb(247, 252, 232);
   }

@@ -17,7 +17,7 @@ $$
 \begin{aligned}
    &G=(V, T, S, P)\\
    &M=(Q,\Sigma,\delta,q_0,F)
-\end{aligend}
+\end{aligned}
 $$
 
 
@@ -48,6 +48,7 @@ $$
 $$
 \begin{aligned}
    &L=\{awa:w \in \{a,b\}^*\}\\
+   &\\
    &L^2=\{aw_1aaw_2w:w_1\;and\;w_2\in \{a, b\}^*\}
 \end{aligned}
 $$
