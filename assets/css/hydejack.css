@@ -256,3 +256,41 @@ input[type="checkbox"]:checked ~ ul{
   background: linear-gradient(#ffffff 75%, #12c0328a 25%);
   padding-bottom: 5px;
 }
+
+.markdown-body a:hover {
+  background: linear-gradient(#12c0320e 75%, #12c0328a 25%);
+}
+
+/* 사이드바 'find' 부분 글자 스타일 */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+/* 여기까지 */
+
+/* 위로 이동 버튼 */
+a#MOVE_TOP_BTN {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  bottom: 50px;
+  right: 2%;
+  position: fixed;
+  z-index: 999;
+  color: rgba(255, 255, 255, 0.815);
+  background-color: #7272728a;
+}
+
+a#MOVE_TOP_BTN:hover {
+  background-color: #1f1f1f8a;
+}
