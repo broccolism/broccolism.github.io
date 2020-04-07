@@ -125,7 +125,7 @@ kramdown:
   syntax_highlighter_opts:
     highlighter: rough
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 compress_html:
