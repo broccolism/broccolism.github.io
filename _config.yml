@@ -1,5 +1,5 @@
-# Math equation
 markdown: kramdown
+highlighter: rouge
 
 # -----------------------------------------------------------------------------
 #  User configuration
@@ -116,14 +116,15 @@ exclude:
   - Gemfile.lock
 
 kramdown:
+  input: GFM
   footnote_backlink: '&#x21a9;&#xfe0e;'
   math_engine:       mathjax
   math_engine_opts:
     preview:         false
     preview_as_code: false
 
-  highlighter: rouge
   syntax_highlighter_opts:
+    css_class   : 'syntax'
     block:
       line_numbers: true
       start_line: 1
