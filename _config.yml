@@ -123,8 +123,9 @@ kramdown:
     preview_as_code: false
 
   syntax_highlighter_opts:
+    highlighter: rough
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 
 compress_html:
