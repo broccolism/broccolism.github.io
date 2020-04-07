@@ -97,7 +97,7 @@
   font-size: 100%;
   word-break: normal;
   white-space: pre;
-  background: transparent;
+  background: rgba(55, 73, 4, 0.03);
   border: 0;
 }
 
@@ -119,7 +119,7 @@
   max-width: initial;
   padding: 0;
   margin: 0;
-  overflow: initial;
+  overflow: auto;
   line-height: inherit;
   word-wrap: normal;
   background-color: transparent;
@@ -211,7 +211,7 @@ input[type="checkbox"]:checked ~ ul{
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  overflow: hidden;
+  overflow: auto;
   max-width: 100%;
 }
 .embed-container iframe,
