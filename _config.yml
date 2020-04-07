@@ -123,7 +123,7 @@ kramdown:
     preview_as_code: false
 
   syntax_highlighter_opts:
-    highlighter: rough
+    highlighter: rouge
     block:
       line_numbers: true
       start_line: 1
