@@ -10,3 +10,5 @@ gem 'wdm', '>= 0.1.0'
 
 gem 'github-pages'
 gem 'jekyll-gist'
+
+gem 'rouge'
