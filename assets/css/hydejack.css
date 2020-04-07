@@ -119,7 +119,7 @@
   max-width: initial;
   padding: 0;
   margin: 0;
-  overflow: auto;
+  overflow: initial;
   line-height: inherit;
   word-wrap: normal;
   background-color: transparent;
@@ -251,6 +251,7 @@ input[type="checkbox"]:checked ~ ul{
   border-radius: 5px;
   border-color: #00000033;
   background-color: rgba(0, 0, 0, 0.02);
+  display: contents;
 }
 
 /*하이퍼링크*/

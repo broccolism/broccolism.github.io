@@ -46,7 +46,7 @@
 
 @mixin flip-table() {
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   background: none;
   border: none;
   border-top: 1px solid $border-color;
