@@ -124,7 +124,6 @@ kramdown:
     preview_as_code: false
 
   syntax_highlighter_opts:
-    css_class   : 'syntax'
     block:
       line_numbers: true
       start_line: 1
