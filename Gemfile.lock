@@ -254,6 +254,7 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1)
   jekyll-redirect-from (~> 0.12)
   jekyll-sitemap (~> 1.0)
+  rouge
   wdm (>= 0.1.0)
 
 BUNDLED WITH
