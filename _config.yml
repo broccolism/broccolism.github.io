@@ -123,11 +123,6 @@ kramdown:
     preview:         false
     preview_as_code: false
 
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
-      start_line: 1
-
 compress_html:
   comments:          ["<!-- ", " -->"]
   clippings:         all
