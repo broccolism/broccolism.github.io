@@ -6,7 +6,7 @@ tags: ac automata nfa dfa language
 use_math: true
 comments: true
 ---
-[DFA 관련 포스팅 보러 가기](https://broccolism.github.io/classes/2020/03/31/AC-dfa-and-language/)
+[DFA 관련 포스팅 보러 가기](https://broccolism.github.io/classes/2020/03/31/AC-dfa-and-language/){: target="_blank"}  
 
 ## 순서  
 [1) NFA의 정의](#nfa-nondeterministic-finite-acceptors)  

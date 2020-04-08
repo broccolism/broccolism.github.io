@@ -69,7 +69,7 @@ $$
 ---
 
 # Language and Associated Language
-[grammer는 language를 만드는 일종의 규칙](https://broccolism.github.io/classes/2020/03/27/AC-language-and-grammer/#grammer)이었다. DFA 역시 비슷한 역할을 할 수 있다.
+[grammer는 language를 만드는 일종의 규칙](https://broccolism.github.io/classes/2020/03/27/AC-language-and-grammer/#grammer){: target="_blank"}이었다. DFA 역시 비슷한 역할을 할 수 있다.
 
 
 $$

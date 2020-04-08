@@ -6,7 +6,7 @@ tags: os CPU virtualization process switching mode context protocol register
 comments: true
 ---
 
-[CPU 가상화 (1) - virtualization, process, mode switch](https://broccolism.github.io/classes/2020/03/23/OS-CPU-virtualization-1/)에서 이어집니다.
+[CPU 가상화 (1) - virtualization, process, mode switch](https://broccolism.github.io/classes/2020/03/23/OS-CPU-virtualization-1/){: target="_blank"}에서 이어집니다.
 
 ## 순서
 [1) Limited Direct Execution (continued)](#limited-direct-execution)  

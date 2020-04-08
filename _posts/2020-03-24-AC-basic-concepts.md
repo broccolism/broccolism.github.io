@@ -94,7 +94,7 @@ rule에 의해 `permit`된 모든 sentences의 `SET`.
 ---
 
 # Order of a Function
-- [big-O, big-Omega, big-Theta notation (위키백과 링크)](https://ko.wikipedia.org/wiki/%EC%A0%90%EA%B7%BC_%ED%91%9C%EA%B8%B0%EB%B2%95)
+- [big-O, big-Omega, big-Theta notation (위키백과 링크)](https://ko.wikipedia.org/wiki/%EC%A0%90%EA%B7%BC_%ED%91%9C%EA%B8%B0%EB%B2%95){: target="_blank"}  
 
 # Equivalence Relation
 - property

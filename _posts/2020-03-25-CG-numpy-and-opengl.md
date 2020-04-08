@@ -31,7 +31,7 @@ comments: true
 > **de-facto standard** for numerical computing in Python.
 
 # NumPy Syntax
-[깃허브 링크 바로가기](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2017/blob/master/slides.pdf)
+[깃허브 링크 바로가기](https://github.com/enthought/Numpy-Tutorial-SciPyConf-2017/blob/master/slides.pdf){: target="_blank"}  
 
 - numpy 모듈 import하기
     ```python

@@ -9,7 +9,7 @@ comments: true
 - STCF (PSJF) scheduler: turnaround time 기준으로 좋은 알고리즘.
     - 하지만 response time 기준으로는 별로 좋지 않으며
     - 각 프로세스의 runtime을 미리 알아야 한다는 한계점이 있다.
-        - 즉, 아직 [4가지 비현실적인 가정](https://broccolism.github.io/classes/2020/03/31/OS_CPU-virtualization-3/#scheduling) 중 마지막 가정이 깨지지 않았다.
+        - 즉, 아직 [4가지 비현실적인 가정](https://broccolism.github.io/classes/2020/03/31/OS_CPU-virtualization-3/#scheduling){: target="_blank"} 중 마지막 가정이 깨지지 않았다.
 - RR scheduler: response time 기준으로 좋은 알고리즘.
     - STCF와 다르게 각 프로세스의 runtime을 미리 몰라도 된다.
     - 하지만 turnaround time 기준으로는 별로 좋지 않다.
