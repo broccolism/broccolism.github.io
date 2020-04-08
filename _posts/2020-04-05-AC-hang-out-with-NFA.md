@@ -8,7 +8,7 @@ comments: true
 ---
 [DFA 관련 포스팅 보러 가기](https://broccolism.github.io/classes/2020/03/31/AC-dfa-and-language/)
 
-# 순서  
+## 순서  
 [1) NFA의 정의](#nfa-nondeterministic-finite-acceptors)  
 &nbsp;&nbsp;&nbsp;&nbsp;[1-1) Extended Transition Function: DFA와의 차이점](#extended-transition-function)  
 [2) Language와 NFA의 관계](#language-and-nfa)  

@@ -5,7 +5,7 @@ categories: classes
 tags: pl sml basic syntax type-checking evaluation let tuple pair list mutation programming 
 comments: true
 ---
-# 순서
+## 순서
 [1) Tuple 알아보기](#tuples-and-lists)  
 [2) List 알아보기](#lists)  
 [3) local binding - 'let'](#let-expressions)  

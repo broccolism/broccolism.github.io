@@ -6,7 +6,7 @@ tags: cg transforamtion translation affine matrix rigid linear graphics
 commetns: true
 use_math: true
 ---
-# 순서
+## 순서
 [1) 2D Transformations는 무엇일까](#2d-transformations-2차원-기하-변환)  
 [2) Linear Transformation: 선형 변환](#linear-transformation-선형-변환)   
 [3) 2D Translation: 평행이동](#2d-translation-평행이동)  

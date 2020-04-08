@@ -6,7 +6,7 @@ tags: ac automata dfa language
 use_math: true
 comments: true
 ---
-# 순서  
+## 순서  
 [1) Deterministic Finite Acceptor: DFA란??](#deterministic-finite-acceptor-dfa)  
 [2) DFA와 Associated Language](#language-and-associated-language)  
 [3) 오토마타 그래프와 DFA의 관계](#relation-between-graph-of-automata-and-dfa)    

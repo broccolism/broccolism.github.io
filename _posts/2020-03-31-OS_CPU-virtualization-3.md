@@ -5,7 +5,7 @@ categories: classes
 tags: os CPU virtualization process scheduling
 comments: true
 ---
-# 순서
+## 순서
 [1) Scheduling의 정의와 비현실적 가정 4가지](#scheduling)  
 [2) Scheduling의 좋고 나쁨을 판단하는 기준 3가지](#scheduling-metrics)  
 [3) 스케줄링 기법 1: FIFO(FCFS)](#first-in-first-out)  

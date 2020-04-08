@@ -5,7 +5,7 @@ categories: classes
 tags: os CPU virtualization process scheduling algorithm lottery 스케줄링
 comments: true
 ---
-### 순서
+## 순서
 [1) 새로운 스케줄링: Proportional Share](#proportional-share)  
 [2) Lottery Scheduling](#lottery-scheduling)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2-1) Lottery Scheduling의 문제점](#problem-of-lottery-scheduling)  

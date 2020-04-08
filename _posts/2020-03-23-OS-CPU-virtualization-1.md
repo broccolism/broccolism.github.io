@@ -5,7 +5,7 @@ categories: classes
 tags: os CPU virtualization process switching fork exec
 comments: true
 ---
-# 순서
+## 순서
 [1) OS란?](#introduction-to-operating-systems)  
 [***OS 디자인 목표](#design-goals-to-make-os)  
 [2) 프로세스](#the-process)  

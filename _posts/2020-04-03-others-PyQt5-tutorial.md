@@ -5,7 +5,7 @@ categories: others
 tags: pyqt5 python ui icon event tutorial
 comments: true
 ---
-# 순서
+## 순서
 [1) PyQt5 코드로 창 띄우기](#창-하나-띄우기)  
 [2) 앱 아이콘 변경하기](#앱-아이콘-변경하기)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2-1) PyQt5 기본 제공 아이콘](#1-pyqt5-기본-제공-아이콘-목록)  

@@ -8,7 +8,7 @@ comments: true
 
 [CPU 가상화 (1) - virtualization, process, mode switch](https://broccolism.github.io/classes/2020/03/23/OS-CPU-virtualization-1/)에서 이어집니다.
 
-# 순서
+## 순서
 [1) Limited Direct Execution (continued)](#limited-direct-execution)  
 [2) 새 프로세스 실행: Context Swtich](#context-switch)  
 [3) 프로토콜 뜯어보기](#limited-direction-execution-protocol)

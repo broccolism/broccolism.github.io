@@ -5,7 +5,7 @@ categories: classes
 tags: pl sml basic syntax type-checking evaluation expression functional langauge programming 
 comments: true
 ---
-# 순서
+## 순서
 [0) Language를 이루는 5가지 개념들](#five-different-things)  
 [1) ML 개념들](#concepts-of-ml)  
 [*) 다른 언어에 익숙한 사람을 위한 팁](#some-tips)  

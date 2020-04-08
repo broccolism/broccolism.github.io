@@ -6,7 +6,7 @@ tags: ac automata language grammer accept sequence alphabet
 use_math: true
 comments: true
 ---
-# 순서
+## 순서
 [1) 기본 용어 정의: sigma, language](#sigma-and-language)  
 [2) Operation Symbols](#operation-and-symbols)  
 [3) Language란?](#definition-of-language-l)  

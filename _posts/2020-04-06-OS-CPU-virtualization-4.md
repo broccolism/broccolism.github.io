@@ -16,7 +16,7 @@ comments: true
 - 남은 과제
     > perfect knowledge 없이 어떻게 좀 더 효율적으로 스케줄링 할 수 있을까?
 
-# 순서
+## 순서
 [1) MLFQ: Multi-Level Feedback Queue](#mlfq-multi-level-feedback-queue)  
 &nbsp;&nbsp;&nbsp;&nbsp;[1-1) MLFQ의 초기 규칙 4가지](#basic-rules-of-mlfq)  
 &nbsp;&nbsp;&nbsp;&nbsp;[1-2) MLFQ의 문제점](#problems-with-the-basic-mlfq)  

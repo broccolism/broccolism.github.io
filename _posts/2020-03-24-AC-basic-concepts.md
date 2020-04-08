@@ -6,7 +6,7 @@ tags: ac automata state transition set
 use_math: true
 comments: true
 ---
-# 순서
+## 순서
 [1) State와 Transition](#state-and-transition)  
 [2) 오토마타 표현 방식](#notations)  
 [3) "동등한" Equivalence 관계](#equivalence-relation)
