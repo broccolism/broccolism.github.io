@@ -251,7 +251,7 @@ input[type="checkbox"]:checked ~ ul{
   border-radius: 5px;
   border-color: #00000033;
   background-color: rgba(0, 0, 0, 0.02);
-  display: contents;
+  display: block;
 }
 
 /*하이퍼링크*/
