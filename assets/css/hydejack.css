@@ -232,11 +232,11 @@ input[type="checkbox"]:checked ~ ul{
   padding-bottom: 0.1em;
   margin: 0;
   font-size: 90%;
-  background-color:rgba(0, 0, 0, 0.02);
+  background-color:#1d97350c;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  border-color: #00000033;
+  border-color: #00000017;
 }
 
 /*코드 블록*/
