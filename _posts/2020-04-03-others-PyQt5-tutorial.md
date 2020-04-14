@@ -2,7 +2,7 @@
 layout: post  
 title: "[UI] PyQt5 아이콘 바꾸고 UI 연결하기"
 categories: others
-tags: pyqt5 python ui icon event tutorial
+tags: others pyqt5 python ui icon event tutorial
 comments: true
 ---
 ## 순서
