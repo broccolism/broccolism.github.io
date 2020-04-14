@@ -1,8 +1,8 @@
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: rgba(243, 108, 139, 0.794); font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { color: #000000; font-weight: bold } /* Keyword */
-.highlight .o { color: #666666 } /* Operator */
+.highlight .k { color: rgb(0, 119, 170) } /* Keyword */
+.highlight .o { color: #b6823e } /* Operator */
 .highlight .cm { color: rgba(243, 108, 139, 0.794); font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #007020 } /* Comment.Preproc */
 .highlight .c1 { color: rgba(243, 108, 139, 0.794); font-style: italic } /* Comment.Single */
@@ -22,20 +22,20 @@
 .highlight .kn { color: rgb(0, 225, 255); font-weight: bold } /* Keyword.Namespace */
 .highlight .kp { color: #000 } /* Keyword.Pseudo */
 .highlight .kr { color: rgb(0, 119, 170); } /* Keyword.Reserved */
-.highlight .kt { color: rgb(238, 153, 0) } /* Keyword.Type */
+.highlight .kt { color:  rgb(236, 72, 105)} /* Keyword.Type */
 .highlight .m { color: #40a070 } /* Literal.Number */
 .highlight .s { color: #4070a0 } /* Literal.String */
 .highlight .na { color: #4070a0 } /* Name.Attribute */
-.highlight .nb { color: #007020 } /* Name.Builtin */
-.highlight .nc { color: #0e84b5; font-weight: bold } /* Name.Class */
+.highlight .nb { color: rgb(238, 153, 0) } /* Name.Builtin */
+.highlight .nc { color: rgb(236, 72, 105) } /* Name.Class */
 .highlight .no { color: #60add5 } /* Name.Constant */
 .highlight .nd { color: #555555; font-weight: bold } /* Name.Decorator */
 .highlight .ni { color: #d55537; font-weight: bold } /* Name.Entity */
 .highlight .ne { color: rgb(238, 153, 0) } /* Name.Exception */
-.highlight .nf { color: rgb(221, 74, 104); } /* Name.Function */
-.highlight .nl { color: #002070; font-weight: bold } /* Name.Label */
-.highlight .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
-.highlight .nt { color: #062873; font-weight: bold } /* Name.Tag */
+.highlight .nf { color: rgb(236, 72, 105); } /* Name.Function */
+.highlight .nl { color: rgb(0, 119, 170) } /* Name.Label */
+.highlight .nn { color: rgb(0, 119, 170) } /* Name.Namespace */
+.highlight .nt { color: rgb(238, 153, 0) } /* Name.Tag */
 .highlight .nv { color: #000000 } /* Name.Variable */
 .highlight .ow { color: #007020; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
