@@ -1,8 +1,10 @@
 ---
-layout: tag-blog
+layout: list
 title: Design
 slug: design
-category: design
+category: others
 menu: false
 order: 1
+description: >
+  wanna learn design.
 ---

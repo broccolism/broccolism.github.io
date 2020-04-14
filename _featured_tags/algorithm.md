@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Books
-slug: books
+title: Algorithm
+slug: algorithm
 category: others
 menu: false
 order: 1
 description: >
-  wanna read some books.
+  wanna practice using algorithm.
 ---
