@@ -5,6 +5,7 @@ categories: classes
 tags: os system-call xv6
 comments: true
 ---
+
 [1. User program이 system call을 부르는 방법](#user)  
 [2. Kernal이 system call을 처리하는 방법](#kernal)  
 
