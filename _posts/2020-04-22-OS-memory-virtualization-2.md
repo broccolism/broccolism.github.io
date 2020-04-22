@@ -89,7 +89,7 @@ $$
     - 나머지 하위 12비트는 offset으로 사용한다.
 - 따라서 valid check는 아래와 같이 이루어졌다.
 
-```java
+```c
     // get top 2 bits of 14-bit VA 
     Segment = (VirtualAddress & SEG_MASK) >> SEG_SHIFT
     
