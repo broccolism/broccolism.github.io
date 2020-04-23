@@ -2,7 +2,7 @@
 layout: post  
 title: "[AC] NFA를 DFA로 바꾸기"
 categories: classes
-tags: classes nfa dfa state transition
+tags: classes ac nfa dfa state transition
 comments: true
 use_math: true
 ---

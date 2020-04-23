@@ -138,5 +138,6 @@ $$
 ![closure](https://broccolism.github.io/assets/img/AC/20020-04-23-3.jpg)
 
 ### Proof
-proof by construction을 이용하면 아래 명제를 증명할 수 있다.
+proof by induction을 이용하면 아래 명제를 증명할 수 있다.
 [ we can build automata for arbitrary complex regular expressions. ]
+- 간단한 regular expression을 NFA/DFA로 바꿀 수 있으면 복잡한 것 역시 가능하기 때문이다.
