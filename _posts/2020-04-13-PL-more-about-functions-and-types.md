@@ -39,6 +39,34 @@ comments: true
 > 클로저(closure)는 내부함수와 밀접한 관계를 가지고 있는 주제다. 내부함수는 외부함수의 지역변수에 접근 할 수 있는데 외부함수의 실행이 끝나서 외부함수가 소멸된 이후에도 내부함수가 외부함수의 변수에 접근 할 수 있다. 이러한 메커니즘을 클로저라고 한다.
 (출처: [https://opentutorials.org/course/743/6544/](https://opentutorials.org/course/743/6544/))
 
+*(2020.04.23 추가)*
+
+예제 코드를 보자.
+
+```sml
+(* 1 *) val x = 1
+(* 2 *) fun f y = x + y
+(* 3 *) val x = 2
+(* 4 *) val y = 3
+(* 5 *) val z = f (x + y)
+```
+
+line 2를 보면 함수 `y` 의 범위 안에서는 정의되지 않은 변수 `x`를 마음대로 사용하고 있다. 그런데 이 코드를 sml에서 그대로 실행시켜도 별 다른 에러가 뜨지 않는다. 어떻게 가능한 것일까?
+
+함수를 이렇게 정의해보자.
+- function value는 두가지 부분을 갖는다.
+    - **code** : 우리가 작성한 코드가 그대로 함수가 되니 당연한 말이다.
+    - **environment**: 함수가 define된 시점의 environment.
+- 즉, 함수는 위의 두가지 element를 갖는 **pair**라고 볼 수 있다.
+    - 대신 ML의 일반적인 pair와는 다르게, 우리가 직접 access 할 방법이 없다.
+    - 우리가 할 수 있는 것은 저 pair를 **call**하는 것이다. function call이다.
+- **function closure**는 저 pair를 의미한다.
+    - funciton call은 해당 function pair의 **environment에서 code를 evaluate**하라고 시키는 것과 같다.
+
+다시 코드로 되돌아가보자. 함수 `y`는 이제 `x + y`라는 **code**와 line2 시점까지의 **environment**를 갖는다는 것을 알게 되었다. 이 때 이 environment에는 line 1에서 정의한 value `x`도 함께 남아있다. 따라서 environment가 `x`를 만났을 때 `1`이라는 값과 **mapping**시킬 수 있기 때문에 line 2에서 아무 문제 없이 `x` 를 쓸 수 있는 것이다.  
+
+function closure는 이렇게 code와 environment를 모두 갖고 있는 덕분에 이루어질 수 있다.
+
 # Polymorphism and Higher-order Functions
 
 > 프로그램 언어의 다형성은 그 프로그래밍 언어의 자료형 체계의 성질을 나타내는 것으로, 프로그램 언어의 각 요소들이 다양한 자료형에 속하는 것이 허가되는 성질을 가리킨다. 반댓말은 단형성으로, 프로그램 언어의 각 요소가 한가지 형태만 가지는 성질을 가리킨다

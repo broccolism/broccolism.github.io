@@ -103,3 +103,40 @@ $$
     - 바꾸어 말하자면, regular expression, DFA 혹은 NFA로 표현할 수 있는 language가 하나 있다면 그것을 나머지 두가지 방식으로 표현할 수 없는 경우는 있을 수 없다는 뜻이다.
         - 세 가지 모두로 표현할 수 있거나, 세 가지 모두로 표현할 수 없거나, 이 두가지 경우 뿐이다.
 - 역으로 어떤 language가 regular language임을 보이려면 해당 language를 표현할 수 있는 regular expression, DFA 혹은 NFA 중 하나를 만들면 proof by construction으로 증명이 되었다고 할 수 있다.
+
+*(2020.04.22 추가)*
+### Properties of Regular Expression
+- number of regular expressions for any given language.
+    - 즉, 한 langauge를 표현할 수 있는 정규식은 셀수 없이 많을 수 있다.
+- 두 정규식이 같은 language를 표현하고 있다면 그 두 정규식은 서로 **equivalent**하다고 말할 수 있다.
+    - 이 성질만 보더라도 한 language에 대한 regular expression은 unique하지 않음을 알 수 있다.
+- For every regular languages, there is a regular expression degnoting the language.
+- For every regular expression, there is a regular languages denoted by the given regular expression.
+    - 위의 두 성질 때문에 아래 성질도 성립한다.
+    - regular languages를 모은 집합은 DFA, NFA, regular expression으로 표현할 수 있는 languages를 모은 각 집합과 동일하다.
+    - regular language가 아닌 나머지 languages는 그것을 표현할 수 있는 DFA도, NFA도, regular expression도 없다. 하나도!
+
+## Systematic Way to Convert
+위의 성질을 보고 있으면 Regular expression을 NFA/DFA로, NFA/DFA를 regular expression을 바꾸는 **systematic way**가 존재할까? 라는 의문을 가질 수 있다. 이에 대한 대답은 "그렇다" 이다.
+
+### Union
+`L(r1 + r2)`가 있다고 하자. 이미 배웠듯이 이 language를 나타내는 DFA와 NFA가 존재할 것이고, `M(r1)`과 `M(r2)`역시 각각 존재한다. 이 때 `L(r1 + r2)`를 나타내기 위해서는 해당 DFA(혹은 NFA) 두개를 *합쳐야*한다. 그럴 땐 아래와 같이 해주면 된다.
+![union](https://broccolism.github.io/assets/img/AC/20020-04-23-1.jpg)
+- 점선을 사용한 state는 이전 오토마타에서는 final state였으나 지금은 더이상 final state가 아닌 state를 의미한다.
+
+### Concatenation
+`L(r1r2)`가 있다고 하자. 마찬가지로 `M(r1)`, `M(r2)`가 각각 존재할 것이다. 이 둘을 이용해 간단하게 나타낼 수 있다.
+
+![concatenation](https://broccolism.github.io/assets/img/AC/20020-04-23-2.jpg)
+
+### Star Closure
+`L(r*)`는 아래와 같이 표현할 수 있다.
+
+- 주의할 점은 "star closure에는 λ도 포함된다"는 사실이다.
+    - 그래서 initial state에서 바로 final state로 가는 lambda transition이 있는 것이다.
+    - 물론 initial state를 final state로 바꾸어 주어도 된다.
+![closure](https://broccolism.github.io/assets/img/AC/20020-04-23-3.jpg)
+
+### Proof
+proof by construction을 이용하면 아래 명제를 증명할 수 있다.
+[ we can build automata for arbitrary complex regular expressions. ]
