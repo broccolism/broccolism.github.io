@@ -79,6 +79,14 @@ $$
 $$
 
 
+*(2020.04.26 추가)*
+위의 연산은 기준이 되는 축을 제외한 나머지 축으로 만든 평면을 내려다보았을 때, 반시계방향으로 회전시키는 효과를 낸다.
+![x](https://broccolism.github.io/assets/img/CG/2020-04-26-1.jpg){: width = "50%"}
+![y](https://broccolism.github.io/assets/img/CG/2020-04-26-2.jpg){: width = "50%"}
+![z](https://broccolism.github.io/assets/img/CG/2020-04-26-3.jpg){: width = "50%"}
+*(여기까지)*
+
+
 rotation을 구현할 때에도 마찬가지로 `np.identity(4)`를 먼저 만든 다음에 필요한 부분만 수정하면 된다. 이 때 slicing을 활용하면 편하다.
 ```python
 R = np.identity(4)
