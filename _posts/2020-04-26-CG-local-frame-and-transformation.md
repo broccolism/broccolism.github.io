@@ -8,7 +8,7 @@ use_math: true
 ---
 ## 순서
 [1) "좌표계" 이야기](#coordinate-system-and-reference-frame)  
-[2) 3차원 변환의 순서 다시보기](#interpretation-of-a-series-of-transformations)
+[2) 3차원 변환의 순서 다시보기](#interpretation-of-a-series-of-transformations)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2-1) 내적의 순서 다시보기](#left-and-right-multiplication)  
 
 # Coordinate System and Reference Frame
@@ -35,7 +35,7 @@ affine transformation matrix를 어떤 object에 내적한다는 것은 해당 o
 ### Defines an Affine Frame with respect to Global Frame
 이 방법은 새로운 방식이다. 어떤 object에 transformation을 수행한다는 것을 *해당 object의 **local frame**을 움직히는 것*이라고 생각한다.
 
-![pic 1](https://broccolism.github.io/assets/img/2020-04-26-4.jpg)
+![pic 1](https://broccolism.github.io/assets/img/CG/2020-04-26-4.jpg)
 
 즉, affine transformation matrix M이 새로운 local frame이 된다고 보는 것이다. 이 때 각 열은 차례대로 x, y, z축 벡터와 원점을 의미한다.
 - 지난 시간에 보았던 "벡터는 0, 점은 1로 표현"한다는 법칙이 완벽하게 들어맞는다!
@@ -52,12 +52,12 @@ M = T(x, 3) @ R(-90)
 ```
 
 **[global frame을 기준으로 해석]**
-![global](https://broccolism.github.io/assets/img/2020-04-26-5.jpg)
+![global](https://broccolism.github.io/assets/img/CG/2020-04-26-5.jpg)
 
 `T(x, 3)`은 x축으로 3만큼 평행이동, `R(-90)`은 시계 반대 방향으로 -90도만큼 회전시키는 행렬이다. 앞서 우리는 이렇게 생긴 `M`을 어떤 점 p와 내적하면 rotation이 먼저 수행된 후 translation이 되는 것으로 배웠다. 
 
 **[local frame을 기준으로 해석]**
-![local](https://broccolism.github.io/assets/img/2020-04-26-6.jpg)
+![local](https://broccolism.github.io/assets/img/CG/2020-04-26-6.jpg)
 
 하지만 이를 왼쪽에서부터 순서대로 해석할 수 있는 방법이 있다! 바로 **local frame을 기준으로 하면** 위의 행렬은 translation을 한 후 rotation을 수행하는 행렬이 된다. 지금까지 우리가 써왔던 해석 방식은 **global frame**을 기준으로 했을 때의 얘기였던 것이다!
 
@@ -69,15 +69,15 @@ p' = M1 @ M2 @ M3 @ M4 @ p
 
 이 코드는 어떻게 해석할 수 있을까? 생각보다 많은 방법이 있다.
 
-![first](https://broccolism.github.io/assets/img/2020-04-26-7.jpg)
+![first](https://broccolism.github.io/assets/img/CG/2020-04-26-7.jpg)
 
 `M1 @ M2 @ M3`을 global frame에 대해 수행했을 때의 모습을 {3}이라고 하면 이렇게 볼 수 있다. {3}에 서서 {4}에 있는 점 p를 바라보는 것. 그러면 이 때 p'는 `M4 @ p`가 된다.
 
-![second](https://broccolism.github.io/assets/img/2020-04-26-8.jpg)
+![second](https://broccolism.github.io/assets/img/CG/2020-04-26-8.jpg)
 
 `M1`만 global frame에 수행했을 때의 모습을 {1}이라고 하면 이렇게 보인다. {1}에 서서 {4}에 있는 점 p를 바라보는 것. 그러면 이 때 p'는 `M2 @ M3 @ M4 @ p`가 된다.
 
-![third](https://broccolism.github.io/assets/img/2020-04-26-9.jpg)
+![third](https://broccolism.github.io/assets/img/CG/2020-04-26-9.jpg)
 
 마침내 `p' = M1 @ M2 @ M3 @ M4 @ p`을 모두 수행하면, global frame인 {0}에 서서 p를 바라보는 것이 된다. 지금까지의 이야기는 모두 내적 연산을 오른쪽부터 왼쪽으로 해석한 결과이다. global frame에서 서서 바라보는 모습은 위의 과정과 반대가 된다.
 
