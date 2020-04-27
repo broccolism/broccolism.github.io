@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "[OS] Memory Virtualization - Segment"
+title: "[OS] Memory 가상화 (2) - Segment"
 categories: classes
 tags: os memory segment fragmentation allocation
 comments: true

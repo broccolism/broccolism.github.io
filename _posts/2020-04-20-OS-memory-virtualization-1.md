@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "[OS] Memory Virtualization - Virtual Address와 하드웨어의 도움"
+title: "[OS] Memory 가상화 (1) - Virtual Address와 하드웨어의 도움"
 categories: classes
 tags: os memory virtualization
 comments: true
