@@ -2,15 +2,15 @@
 layout: post
 title: "[AC] Regular Language / DFA vs. NFA"
 categories: classes
-tags: ac regular language grammer dfa nfa
+tags: ac regular language grammar dfa nfa
 comments: true
 ---
 # 바로가기
-[1) Grammer와 DFA는 다르다](#grammer와-dfa는-다르다)  
+[1) Grammar와 DFA는 다르다](#grammer와-dfa는-다르다)  
 [2) 정규..언어? Regular Language](#regular-language)  
 [3) DFA랑 비슷해보이지만 다른 NFA](#nfa-nondeterministic-finite-acceptors)  
 
-# Grammer와 DFA는 다르다
+# Grammar와 DFA는 다르다
 
 
 $$
@@ -22,10 +22,10 @@ $$
 
 
 - Transition
-    - in Grammer: P
+    - in Grammar: P
     - in DFA: δ
 모든 오토마타 그래프는 DFA로 정의할 수 있고, DFA로 나타낼 수 있는 language는 그래프로도 표현할 수 있다.
-하지만 Grammer와 language 사이에는 위와 같은 관계가 성립하지 않는다. 이를 잘 구분해야 한다.
+하지만 Grammar와 language 사이에는 위와 같은 관계가 성립하지 않는다. 이를 잘 구분해야 한다.
 
 # Regular Language
 
