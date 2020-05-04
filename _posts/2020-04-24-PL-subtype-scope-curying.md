@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "[PL]More about Functions and Types"
+title: "[PL] More about Functions and Types"
 categories: classes
 tags: pl subtype type lexial scope function
 comments: true
