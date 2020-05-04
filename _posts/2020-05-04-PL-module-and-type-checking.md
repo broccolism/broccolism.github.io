@@ -1,8 +1,8 @@
 ---  
 layout: post  
-title: "[PL] "
+title: "[PL] 모듈 만들기 & type-checking"
 categories: classes
-tags: pl 
+tags: pl module signature match type checking
 comments: true
 use_math: true
 ---
