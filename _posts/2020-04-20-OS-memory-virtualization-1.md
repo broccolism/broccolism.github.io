@@ -288,7 +288,7 @@ $$
 \begin{aligned}
 &physical \; address = virtual \; address + base\\
 &0 < virtual \; address < bounds
-\end{aligend}
+\end{aligned}
 $$
 
 아래의 조건(virtual address의 범위)을 확인할 때에는 virtual address로 미리 확인해도 되고, 거기에 base 값을 더한 physical address 값으로 확인해도 무방하다. 그리고 이 조건을 만족하기만 하면 바로 메모리에 접근가능하다.
