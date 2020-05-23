@@ -17,22 +17,22 @@ comments: true
 
 가상의 client가 있다고 생각하고 DB 디자인을 맡기는 사람 입장에서 어떤 요구사항이 생길지 적는 것이 첫 번째 단계였다. 이 때 생각한 부분을 바탕으로 데이터베이스와 그것을 이용하는 프로그램을 만드는 것이 프로젝트의 최종 목표였다. 사실 과제 명세서에서 준 개체는 [관리자, 사용자, 음악, 플레이리스트] 이렇게 4가지 뿐이었는데 생각하다보니 이것저것 필요한 개체가 많아져서 다 넣어버렸다. 
 
-![complex ones](https://broccolism.github.io/assets/img/been/2020-05-23-3.JPG){: width="85%" }
+![complex ones](https://broccolism.github.io/assets/img/been/2020-05-23-3.JPG)
 
 😊 이런식으로 당장 생각하기에 구현이 그다지 간단할 것 같지만은 않은 항목들도 넣었다. 추가한 개체와 요구사항이 많을수록 추가점수를 받을 수 있지만, 여기서 생각한 모든 항목들이 최종 프로젝트 시연 때에 구현되어 있지 않으면 오히려 감점을 당할 수도 있었다. 하지만 구현이 어려워질 것 같다는 이유로 필요한 기능을 빼고 싶지는 않았기 때문에 3페이지에 걸친 요구사항 분석 레포트를 제출했다. 물론 그 때에는 "아 나중에 구현 안되면 어쩌지!" 하는 작은 속삭임이 마음 속 한 구석에 자리잡고 있었다.
 
 # 🔥Step2. Conceptual DB feat. ER Model
 사실 프로젝트 전체 과정 중에서 이 단계와 그 다음 단계가 제일 재밌었다. 먼저 ER Model을 이용해서 conceptual DB를 만들었다. 결과는 아래 그림과 같다.
 
-![ER Model](https://broccolism.github.io/assets/img/been/2020-05-23-4.JPG){: width="85%" }
+![ER Model](https://broccolism.github.io/assets/img/been/2020-05-23-4.JPG)
 
 당연히 각 attributes에 대한 설명도 추가했다.
 
-![Attributes](https://broccolism.github.io/assets/img/been/2020-05-23-5.JPG){: width="85%" }
+![Attributes](https://broccolism.github.io/assets/img/been/2020-05-23-5.JPG)
 
 ✨하얀 빈 화면에서 내가 직접 entity와 attribute, relation을 추가하는 그 일들이 굉장히 신나는 작업이었다. "어떻게 하면 최대한 중복을 방지하고 효율적인 DB를 설계할 수 있을까"를 내내 고민하면서 만들었다. 
 
-![changes](https://broccolism.github.io/assets/img/been/2020-05-23-6.JPG){: width="85%" }
+![changes](https://broccolism.github.io/assets/img/been/2020-05-23-6.JPG)
 
 ❗ 그러다보니 Step 1에서 만들었던 요구사항이 무척 ambiguous하다는 점을 깨달았다. 그래서 이전 단계에서 정했던 내용에 대한 수정 사항도 추가로 작성해서 제출했다. 한 번 만든 디자인은 절대 완벽할 수 없다는 사실을 여기서도, 그리고 이 다음 단계에서도 깨달았던 기억이 난다.
 
@@ -43,7 +43,7 @@ comments: true
 
 이번 단계에서는 ER model을 relational model로 바꾸는 작업을 했다. 이 단계에서는 생각보다 시간이 그렇게 오래 걸리지 않았던 것 같다.
 
-![relational model](https://broccolism.github.io/assets/img/been/2020-05-23-8.JPG){: width="85%" }
+![relational model](https://broccolism.github.io/assets/img/been/2020-05-23-8.JPG)
 
 # 🔥🔥🔥 Step4. DBMS 프로그램 개발
 - DBMS 프로그램
@@ -52,11 +52,11 @@ comments: true
 
 ⏰ 위 세가지 내용을 모두 이 step4 한 번에 다 수행했다. ~~한 스텝이 너무 큰거 아닙니까~~ 그래도 다행이었던건 과제 명세가 11월 13일에 나왔는데 due date이 12월 4일이라는 점이었다. 하지만 그럼에도 불구하고 시간이 넉넉하진 않았다. 앞서 언급한 기업 탐방 프로그램을 갔던 이유는 당시 내가 기자단 활동을 하고 있기 때문이었는데, 여기에 중앙동아리 임원진 일도 하면서 시간 관리가 중요한 일이 되었다. 이렇게 생각하니 지난 학기에 그 많은 일을 어떻게 다 했나, 싶다. 그것도 그럴 것이 내가 만드려던 "DBMS 프로그램"의 구상도는...
 
-![app](https://broccolism.github.io/assets/img/been/2020-05-23-9.JPG){: width="85%" }
+![app](https://broccolism.github.io/assets/img/been/2020-05-23-9.JPG)
 
 이렇게 생겼기 때문이다! 지금 딱 봤을 때 제일 복잡해 보이는 부분을 확대하자면 아래와 같다.
 
-![scaled](https://broccolism.github.io/assets/img/been/2020-05-23-10.JPG){: width="85%" }
+![scaled](https://broccolism.github.io/assets/img/been/2020-05-23-10.JPG)
 
 👂 사용자가 [로그인>my playlist에 들어감>플레이 리스트에 있는 노래 재생]을 했을 때 한 곡이 끝나면 다음 곡을 계속해서 재생할 지 말 지 물어보는 부분이다. 만약 곡이 끝나기 전에 일시정지 혹은 정지 기능을 쓴다면 insert 처리를 해서 이후에 노래 이어듣기가 가능하도록 데이터를 저장하는 부분도 보인다.
 
@@ -65,11 +65,11 @@ comments: true
 ### 💭
 놀랍게도 이 프로젝트의 최종 보고서만 29페이지이다. 물론 아래처럼 작동하는 기능 스크린샷을 첨부한 페이지도 있지만, 줄글로 채운 페이지도 절반 즈음 된다.
 
-![1](https://broccolism.github.io/assets/img/been/2020-05-23-11.JPG){: width="85%" }
+![1](https://broccolism.github.io/assets/img/been/2020-05-23-11.JPG)
 
-![2](https://broccolism.github.io/assets/img/been/2020-05-23-12.JPG){: width="85%" }
+![2](https://broccolism.github.io/assets/img/been/2020-05-23-12.JPG)
 
-![3](https://broccolism.github.io/assets/img/been/2020-05-23-13.JPG){: width="85%" }
+![3](https://broccolism.github.io/assets/img/been/2020-05-23-13.JPG)
 
 보고서 작성도 며칠동안 붙잡고 있었다. 데모를 할 때에는 내가 거의 딱 중간 순서였는데, 앞 차례 학생들 시간이 뒤로 조금씩 밀려서 시간이 부족해 모든 기능을 보여드리진 못했다. 당연히 다 못 보여드릴거라고 생각하고 다른 학생들과 차별화 될만한 기능을 중점적으로 준비해갔는데 그게 도움이 되었다.
 
