@@ -3,16 +3,16 @@
   <ul>
     <li class="pagination-item older" >
       {% if paginator.next_page %}
-        <a rel="next" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+        <a rel="next" href="{{ paginator.next_page_path | relative_url }}">예전 글</a>
       {% else %}
-        <span>Older</span>
+        <span>예전 글</span>
       {% endif %}
     </li>
     <li class="pagination-item newer" >
       {% if paginator.previous_page %}
-        <a rel="prev" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
+        <a rel="prev" href="{{ paginator.previous_page_path | relative_url }}">최근 글</a>
       {% else %}
-        <span>Newer</span>
+        <span>최근 글</span>
       {% endif %}
     </li>
   </ul>
