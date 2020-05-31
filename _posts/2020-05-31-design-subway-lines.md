@@ -2,7 +2,7 @@
 layout: post  
 title: "[case] '색맹·색약 이용자 위해 지하철 노선도 다시 그렸어요' 리뷰"
 categories: design
-tags: design case naver color subway review shadowing
+tags: design case naver color subway review shadowing others
 comments: true
 ---
 
