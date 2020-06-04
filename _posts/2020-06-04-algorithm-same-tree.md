@@ -6,11 +6,10 @@ tags: algorithm leetcode tree stack queue
 comments: true
 ---
 👀 Found out something interesting about LeetCode's C++ compiler.  
-
 👩‍💻 Total 3 solutions using recursin(mine) or iteration(not my idea).
 
 # Same Tree
-[see detail on LeetCode](https://leetcode.com/problems/same-tree)
+[see detail on LeetCode](https://leetcode.com/problems/same-tree){: target="_blank"}  
 
 Given two binary trees, write a function to check if they are the same or not.
 
@@ -98,7 +97,7 @@ The difference between solution 1 and 2 is just the number of `if` statement. In
 
 From the top, the 1st and the 3rd are results by the solution 2 and the 2nd and the 4th are by the solution 1. When there's less number of `if` statement, runtime even became `0ms`, which is faster than 100% of other C++ online submissions.
 
-😎 I guess this is becuase of the *branch instruction*. If you learned about computer architecture || compiler || assemble language, you may understand what I mean. *Branch instruction*, a kind of instructions that compilers make, is yield from `if` || `while` || `goto`(in C) and other statements like them. It is pretty convenience for us to use such statements, but not for the hardware becuase of the high cost of executing the instruction. For example, CPU needs to compute an address of where to jump for each branch instruction.
+😎 I guess this is becuase of the *branch instruction*. If you learned about computer architecture ││ compiler ││ assemble language, you may understand what I mean. *Branch instruction*, a kind of instructions that compilers make, is yield from `if` ││ `while` ││ `goto`(in C) and other statements like them. It is pretty convenience for us to use such statements, but not for the hardware becuase of the high cost of executing the instruction. For example, CPU needs to compute an address of where to jump for each branch instruction.
 
 👀 Some compilers can optimize lots of code that a programmar wrote. But I think the LeetCode Compiler does not that much of optimization for this time. Maybe I should keep observing runtime differences resulted by the difference of branch instructions with many other problems.
 
