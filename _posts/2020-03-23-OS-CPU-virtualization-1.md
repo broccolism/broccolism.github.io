@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[OS] CPU 가상화 (1) - virtualization, process, mode switch"
-categories: classes
-tags: os CPU virtualization process switching fork exec
+categories: study
+tags: study 2020-1 os CPU virtualization process switching fork exec
 comments: true
 ---
 ## 순서

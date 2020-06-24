@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[PL] SML 기초(2) - Tuple, Pair, List, Mutation"
-categories: classes
-tags: pl sml basic syntax type-checking evaluation let tuple pair list mutation programming 
+categories: study
+tags: study 2020-1 pl sml basic syntax type-checking evaluation let tuple pair list mutation programming 
 comments: true
 ---
 ## 순서

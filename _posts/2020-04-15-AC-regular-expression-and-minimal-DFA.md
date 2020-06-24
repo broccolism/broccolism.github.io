@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[AC] Minimal DFA & Regular Expression"
-categories: classes
-tags: classes nfa dfa minimal regular expression language
+categories: study
+tags: study 2020-1 study nfa dfa minimal regular expression language
 comments: true
 use_math: true
 ---

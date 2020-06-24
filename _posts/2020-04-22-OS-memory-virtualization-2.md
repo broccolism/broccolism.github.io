@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[OS] Memory 가상화 (2) - Segment"
-categories: classes
-tags: os memory segment fragmentation allocation
+categories: study
+tags: study 2020-1 os memory segment fragmentation allocation
 comments: true
 ---
 ## 순서

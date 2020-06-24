@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[OS] CPU 가상화 (3) - scheduling"
-categories: classes
-tags: os CPU virtualization process scheduling
+categories: study
+tags: study 2020-1 os CPU virtualization process scheduling
 comments: true
 ---
 ## 순서

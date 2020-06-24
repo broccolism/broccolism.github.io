@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[AC] Grammar랑 놀자!"
-categories: classes
-tags: classes ac grammar linear right left regular language
+categories: study
+tags: study 2020-1 ac grammar linear right left regular language
 comments: true
 use_math: true
 ---

@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[PL]More about Functions and Types"
-categories: classes
-tags: pl function programming closure polymorphism anonymous higher-order type
+categories: study
+tags: study 2020-1 pl function programming closure polymorphism anonymous higher-order type
 comments: true
 ---
 ## 순서

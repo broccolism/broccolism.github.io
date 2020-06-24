@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[CG] 2차원 변환 총집합! 2D Transformations"
-categories: classes
-tags: cg transforamtion translation affine matrix rigid linear graphics
+categories: study
+tags: study 2020-1 cg transforamtion translation affine matrix rigid linear graphics
 commetns: true
 use_math: true
 ---

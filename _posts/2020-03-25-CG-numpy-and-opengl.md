@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[CG] Numpy, OpenGL 기초"
-categories: classes
-tags: cg numpy array opengl graphics vector matrix slicing indexing
+categories: study
+tags: study 2020-1 cg numpy array opengl graphics vector matrix slicing indexing
 comments: true
 ---
 # 바로가기

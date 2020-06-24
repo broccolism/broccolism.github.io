@@ -1,12 +1,12 @@
 ---  
 layout: post  
 title: "[AC] NFA 갖고 놀기 - language / DFA와의 관계"
-categories: classes
-tags: ac automata nfa dfa language
+categories: study
+tags: study 2020-1 ac automata nfa dfa language
 use_math: true
 comments: true
 ---
-[DFA 관련 포스팅 보러 가기](https://broccolism.github.io/classes/2020/03/31/AC-dfa-and-language/){: target="_blank"}  
+[DFA 관련 포스팅 보러 가기](https://broccolism.github.io/study/2020/03/31/AC-dfa-and-language/){: target="_blank"}  
 
 ## 순서  
 [1) NFA의 정의](#nfa-nondeterministic-finite-acceptors)  

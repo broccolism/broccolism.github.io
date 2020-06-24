@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[AC] NFA를 DFA로 바꾸기"
-categories: classes
-tags: classes ac nfa dfa state transition
+categories: study
+tags: study 2020-1 study ac nfa dfa state transition
 comments: true
 use_math: true
 ---

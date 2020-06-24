@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Classes
-slug: classes
+title: Study
+slug: study
 menu: true
 submenu: true
 order: 1
 description: >
-  2020-1학기 수업 노트
+  배우고 있어요
 ---

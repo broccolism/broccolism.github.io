@@ -2,7 +2,7 @@
 layout: post  
 title: "[2020] YoriZori: 자취생 재료 관리 및 레시피 추천 어플"
 categories: been
-tags: been develop-note android team project 2020
+tags: study 2020-1 been develop-note android team project 2020
 comments: true
 ---
 

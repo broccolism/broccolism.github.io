@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[PL] 모듈 만들기 & type-checking"
-categories: classes
-tags: pl module signature match type checking
+categories: study
+tags: study 2020-1 pl module signature match type checking
 comments: true
 use_math: true
 ---

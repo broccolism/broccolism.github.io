@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[CG] OpenGL glfw mouse drag event"
-categories: classes
-tags: cg graphics opengl glfw mouse drag event
+categories: study
+tags: study 2020-1 cg graphics opengl glfw mouse drag event
 commetns: true
 ---
 

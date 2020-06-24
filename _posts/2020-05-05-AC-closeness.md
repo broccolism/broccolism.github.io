@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[AC] NFA를 regular expression으로 바꾸기"
-categories: classes
-tags: classes ac nfa rex regular-expression state transition gtg
+categories: study
+tags: study 2020-1 ac nfa rex regular-expression state transition gtg
 comments: true
 use_math: true
 ---

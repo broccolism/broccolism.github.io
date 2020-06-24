@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[AC] 오토마타 기본 개념"
-categories: classes
-tags: ac automata state transition set
+categories: study
+tags: study 2020-1 ac automata state transition set
 use_math: true
 comments: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[AC] Regular Language / DFA vs. NFA"
-categories: classes
-tags: ac regular language grammar dfa nfa
+categories: study
+tags: study 2020-1 ac regular language grammar dfa nfa
 comments: true
 ---
 # 바로가기

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[CG] Local Frame & 3차원 변환을 바라보는 관점"
-categories: classes
-tags: cg transforamtion openGL graphics affine local global frame cooridnate
+categories: study
+tags: study 2020-1 cg transforamtion openGL graphics affine local global frame cooridnate
 commetns: true
 use_math: true
 ---

@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[CA] Instrucion Operands"
-categories: classes
-tags: ca instruction operand register memory immediate hardware
+categories: study
+tags: study 2020-1 ca instruction operand register memory immediate hardware
 comments: true
 ---
 

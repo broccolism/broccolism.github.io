@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[PL]효율적으로 만들기 - Pattern Matching/Exception/Tail-Recursion"
-categories: classes
-tags: pl pattern match exception tail recursive function
+categories: study
+tags: study 2020-1 pl pattern match exception tail recursive function
 comments: true
 ---
 ## 순서

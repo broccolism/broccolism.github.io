@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[xv6] xv6에 새 system call 만들기"
-categories: classes
-tags: os system-call xv6
+categories: study
+tags: study 2020-1 os system-call xv6
 comments: true
 ---
 

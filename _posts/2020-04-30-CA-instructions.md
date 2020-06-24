@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[CA] Branch and Basic Block"
-categories: classes
-tags: ca sign instruction MIPS operation format 
+categories: study
+tags: study 2020-1 ca sign instruction MIPS operation format 
 comments: true
 ---
 

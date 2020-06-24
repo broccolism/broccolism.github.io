@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[PL] SML 기초(1) - Syntax, Type, Value, Function"
-categories: classes
-tags: pl sml basic syntax type-checking evaluation expression functional langauge programming 
+categories: study
+tags: study 2020-1 pl sml basic syntax type-checking evaluation expression functional langauge programming 
 comments: true
 ---
 ## 순서

@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[OS] Memory 가상화 (1) - Virtual Address와 하드웨어의 도움"
-categories: classes
-tags: os memory virtualization
+categories: study
+tags: study 2020-1 os memory virtualization
 comments: true
 ---
 ## 순서

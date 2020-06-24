@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[PL] More about Functions and Types"
-categories: classes
-tags: pl subtype type lexial scope function
+categories: study
+tags: study 2020-1 pl subtype type lexial scope function
 comments: true
 ---
 
@@ -68,7 +68,7 @@ val z = g 4
 - lexical scope를 사용하면 위와 같은 일이 발생하지 않는다. `val x = "hi"`를 불러도 fucntion definition은 `f`가 정의된 바로 그 시점을 기준으로 의미가 매핑되기 때문에 이후 `x`가 뭘로 바뀌든 상관없이 `f`에서 쓰는 `x`는 인자로 들어온 `y`에 1을 더한 값이 된다.
 
 3. closure를 이용해서 우리가 필요한 데이터를 쉽게 저장할 수 있다.
-- 자세한 설명은 [이전 포스팅](https://broccolism.github.io/classes/2020/04/13/PL-more-about-functions-and-types/#function-closures)을 참고하자.
+- 자세한 설명은 [이전 포스팅](https://broccolism.github.io/study/2020/04/13/PL-more-about-functions-and-types/#function-closures)을 참고하자.
 
 ### 그렇다면 dynamic scope를 쓰는 곳이 있을까
 lexcial scope가 대부분 언어에서 기본적으로 사용하는 방식인건 맞지만, 역시 상황에 따라 dynamic scope를 쓰는 것이 편리한 경우가 있다.

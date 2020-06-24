@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[CG] 3차원 변환/OpenGL transformation function/affine space"
-categories: classes
-tags: cg transforamtion openGL graphics affine current
+categories: study
+tags: study 2020-1 cg transforamtion openGL graphics affine current
 commetns: true
 use_math: true
 ---

@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[AC] Language 와 Grammar"
-categories: classes
-tags: ac automata language grammar accept sequence alphabet
+categories: study
+tags: study 2020-1 ac automata language grammar accept sequence alphabet
 use_math: true
 comments: true
 ---

@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: "[CA] Branch and Basic Block"
-categories: classes
-tags: ca branch basic-block condition 어셈블리
+categories: study
+tags: study 2020-1 ca branch basic-block condition 어셈블리
 comments: true
 ---
 

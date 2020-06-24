@@ -3,9 +3,9 @@
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: rgb(0, 119, 170) } /* Keyword */
 .highlight .o { color: #9e7d51 } /* Operator */
-.highlight .cm { color: rgba(243, 108, 139, 0.794); font-style: italic } /* Comment.Multiline */
+.highlight .cm { color: rgba(70, 70, 70, 0.7); font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: rgb(0, 119, 170) } /* Comment.Preproc */
-.highlight .c1 { color: rgba(243, 108, 139, 0.794); font-style: italic } /* Comment.Single */
+.highlight .c1 { color: rgba(70, 70, 70, 0.7); font-style: italic } /* Comment.Single */
 .highlight .cs { color: rgba(243, 108, 139, 0.794); background-color: #fff0f0 } /* Comment.Special */
 .highlight .gd { color: #A00000 } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
@@ -19,7 +19,7 @@
 .highlight .gt { color: #0040D0 } /* Generic.Traceback */
 .highlight .kc { color: rgb(255, 230, 0); font-weight: bold } /* Keyword.Constant */
 .highlight .kd { color: #000; font-weight: bold } /* Keyword.Declaration */
-.highlight .kn { color: rgb(0, 225, 255); font-weight: bold } /* Keyword.Namespace */
+.highlight .kn { color: rgb(0, 119, 170);} /* Keyword.Namespace */
 .highlight .kp { color: #000 } /* Keyword.Pseudo */
 .highlight .kr { color: rgb(0, 119, 170); } /* Keyword.Reserved */
 .highlight .kt { color: rgb(0, 119, 170)} /* Keyword.Type */
