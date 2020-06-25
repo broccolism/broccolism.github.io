@@ -5,6 +5,7 @@ categories: study
 tags: study 2020-2 dialog windows handle C++ programming
 comments: true
 ---
+
 - 예제 코드 및 일부 설명 출처: [https://eine.tistory.com/entry/Win32-API로-Hello-World-프로그램-작성하기](https://eine.tistory.com/entry/Win32-API%EB%A1%9C-Hello-World-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0)
 - 🔼 윈도우 프로그래밍을 아무리 검색해도 기초적인 글이 잘 보이지 않아 겨우 찾은 링크. 안드로이드 프로그래밍 기초라고 검색하면 포스팅이 꽤 많이 뜨는데... 혹시나 도움이 될까 싶어 이 글을 올립니다.
 - 나머지 출처: [마이크로소프트 docs](https://docs.microsoft.com/en-us/windows/win32/)
