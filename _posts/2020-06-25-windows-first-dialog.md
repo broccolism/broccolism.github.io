@@ -22,7 +22,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 }
 ```
 
-![result](https://broccolism.github.io/assets/img/windows/2020-06-25-1.jpg){: width="40%" }
+![result](https://broccolism.github.io/assets/img/windows/2020-06-25-1.jpg){: width="30%" }
 
 ## 코드 설명
 
