@@ -1,33 +1,59 @@
 <!-- =============== -->
-<!-- MENU            -->
-<!-- =============== -->
-<div class="navbar fixed-top">
-  <div class="content">
-    <span class="sr-only">Jump to:</span>
-    <a id="_menu" class="menu no-hover" href="#_title">
-      <span class="sr-only">Menu</span>
-    </a>
-  </div>
-</div>
-
-<!-- =============== -->
 <!-- CONTENT         -->
 <!-- =============== -->
-<div id="_yPushState">
-  <div class="fade-in">
-    <main id="_main" class="content" role="main" data-color="{{ color | escape }}" data-image="{{ image | escape }}">
-      {{ content }}
+<style>
+  div {
+    color: #EAFAF1;
+  }
+</style>
+<script language="JavaScript">
 
-      {% if site.disqus_shortname and page.layout == 'post' %}
-        {% include comments.html %}
-      {% endif %}
+  CountDownTimer('01/01/2017', 'countdown'); // 2017년 1월 1일까지
+  CountDownTimer('11/11/2020 00:00 AM', 'newcountdown'); // 2018년 1월 1일까지, 시간을 표시하려면 01:00 AM과 같은 형식을 사용합니다.
 
-      {% include footer.html %}
-    </main>
-    {% include right-side.html %}
-  </div>
-  {% include sidebar.html %}
-</div>
+  function CountDownTimer(dt, id) {
+    var end = new Date(dt);
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+      var now = new Date();
+      var distance = end - now;
+      if (distance < 0) {
+
+        clearInterval(timer);
+        document.getElementById(id).innerHTML = 'EXPIRED!';
+
+        return;
+      }
+      var days = Math.floor(distance / _day);
+      var hours = Math.floor((distance % _day) / _hour);
+      var minutes = Math.floor((distance % _hour) / _minute);
+      var seconds = Math.floor((distance % _minute) / _second);
+
+      document.getElementById(id).innerHTML = days + 'd ';
+      document.getElementById(id).innerHTML += hours + 'h ';
+      document.getElementById(id).innerHTML += minutes + 'm ';
+      document.getElementById(id).innerHTML += seconds + 's';
+    }
+
+    timer = setInterval(showRemaining, 1000);
+  }
+</script>
+
+<body style="background-color: #191919;">
+  <div style="text-align: center;"><img
+      src="https://firebasestorage.googleapis.com/v0/b/one-dish-of-broccoli-salad.appspot.com/o/Broccoli-20065.gif?alt=media&token=e2b7cf7a-0cf8-48bc-83e0-980686ca5fc6"
+      alt="fresh broccoli"></div>
+  <div>블로그 이사 중...</div>
+  <div>좀 더 멋있는 브로콜리 샐러드가 되기까지:</div>
+  <div id="newcountdown" style="font-weight: 700; font-size: 500%;" </div>
+
+</body>
 
 <!-- =============== -->
 <!-- SCRIPTS         -->
