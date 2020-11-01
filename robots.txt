@@ -1,3 +1,0 @@
-ser-agent: *
-Allow: /
-Sitemap: http://broccolism.github.io/sitemap.xml
