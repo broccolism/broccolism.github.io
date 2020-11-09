@@ -1,20 +1,13 @@
 # One Dish of Broccoli Salad 샐러드 한 접시
 ![blog_image](https://broccolism.github.io/assets/img/readme-1.JPG)
-> 이사 중입니다.
-> jekyll 너무 신기해요 누가 이런걸 생각해냈지?  
-> ruby 이름이 예뻐요 어떻게 이런 감성을?  
-> latex 완전 편해요 에러가 어디서 났는지 안 알려주는것만 빼면..  
-> disqus 네이밍 센스가 좋네요 게다가 편함  
+> 이사 중입니다.  
 
 아무튼 배운 내용 정리 및 몇가지 정보 기록용으로 운영할 생각입니다.  
 물론 학기 중에는 배운 내용 정리만 쭉 올라갈수도 있어요. 주인장이 게으르기 때문이에요.  
 
 # What I used for this blog...
-- github blog
-- jekyll
-- ruby
-- LaTex for math expressions
-- Disqus for comments
+- github hosting
+- React with javascript
 
 # Tiny Problems
   
