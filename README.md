@@ -1,6 +1,6 @@
 # One Dish of Broccoli Salad 샐러드 한 접시
 ![blog_image](https://broccolism.github.io/assets/img/readme-1.JPG)
-> cs 학부생이 처음으로 제대로 만든 깃 블로그입니다.  
+> 이사 중입니다.
 > jekyll 너무 신기해요 누가 이런걸 생각해냈지?  
 > ruby 이름이 예뻐요 어떻게 이런 감성을?  
 > latex 완전 편해요 에러가 어디서 났는지 안 알려주는것만 빼면..  
