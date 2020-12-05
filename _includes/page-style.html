@@ -1,0 +1,27 @@
+<style id="_pageStyle">
+{% capture page_style %}
+  .content a {
+    color: #333333;
+    border-color: fade-out({{ color }}, 0.6);
+  }
+
+  .content a:hover {
+    color:{{ color }};
+  }
+
+  :focus {
+    color: {{ color }};
+  }
+
+  ::selection {
+    color: #fff;
+    background: {{ color }};
+  }
+
+  ::-moz-selection {
+    color: #fff;
+    background: {{ color }};
+  }
+{% endcapture %}
+{{ page_style | scssify }}
+</style>
