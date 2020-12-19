@@ -1,10 +1,10 @@
 # One Dish of Broccoli Salad 샐러드 한 접시
-<center>
-<img src="https://user-images.githubusercontent.com/45515332/102695737-91813f80-426c-11eb-8091-637c8bd5b1c9.png" width="60%" alt="theme1">
-<img src="https://user-images.githubusercontent.com/45515332/102695742-95ad5d00-426c-11eb-80a0-7bc783817bb2.png" width="60%" alt="theme2>
-<center>
-                                                                                                                                  
-                                                                                                                                  
+
+<p align="center">                       
+<img src="https://user-images.githubusercontent.com/45515332/102695737-91813f80-426c-11eb-8091-637c8bd5b1c9.png" alt="theme1" width="60%"/>
+<img src="https://user-images.githubusercontent.com/45515332/102695742-95ad5d00-426c-11eb-80a0-7bc783817bb2.png" alt="theme2" width="60%"/>
+</p>
+
 > 이사 중입니다.  
 
 아무튼 배운 내용 정리 및 몇가지 정보 기록용으로 운영할 생각입니다.  
