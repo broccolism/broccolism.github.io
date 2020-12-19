@@ -1,23 +1,46 @@
-# One Dish of Broccoli Salad 샐러드 한 접시
+# Getting Started with Create React App
 
-<p align="center">                       
-<img src="https://user-images.githubusercontent.com/45515332/102695737-91813f80-426c-11eb-8091-637c8bd5b1c9.png" alt="theme1" width="60%"/>
-<img src="https://user-images.githubusercontent.com/45515332/102695742-95ad5d00-426c-11eb-80a0-7bc783817bb2.png" alt="theme2" width="60%"/>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> 이사 중입니다.  
+## Available Scripts
 
-아무튼 배운 내용 정리 및 몇가지 정보 기록용으로 운영할 생각입니다.  
-물론 학기 중에는 배운 내용 정리만 쭉 올라갈수도 있어요. 주인장이 게으르기 때문이에요.  
+In the project directory, you can run:
 
-# What I used for this blog...
-- github hosting
-- React with javascript
+### `yarn start`
 
-# Tiny Problems
-  
-를 다뤘던 날을 적는 일기장  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-*(2020-04-01 추가)*
-그동안 LaTex로 작성한 수식 중 일부가 블로그에서 안 보이는 현상이 있었다. 분명 다른 애들은 잘 뜨는데 유독 이상하게 뜨는 애들이 있어 구글링을 해봤지만 안타깝게도 관련 정보가 별로 없어 답을 찾지 못하고 있었다. 공식 홈페이지에 가서 아무리 확인을 해도 틀리게 쓴 부분이 없었다. 블로그 자체 문제인가 싶어 미리 설치되어있던 플러그인도 어디에 쓰이는 애들인지 하나씩 확인하기도 했다.  
-결국... 디버거 역할을 직접 하기로 했다. 한 줄 한 줄씩 쓰고 체크하다보니 `\theta` 처럼 미리 만들어진 키워드로 쓰지 않고 그냥 윈도우+R키 눌러서 `θ` 라고 입력한 부분이 있으면 블로그에서 절대 보여주지 않았다. LaTex 수식의 어느 부분에서 에러가 났는지 알려주는게 있었으면 이걸 찾는데 며칠이 걸리지 않았을텐데 좀 아쉬웠다. 어떻게 잘 하면 만들 수 있지 않을까. . .? 덕분에 디버거의 소중함을 깨달았다.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
