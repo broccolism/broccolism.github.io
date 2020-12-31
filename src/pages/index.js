@@ -101,7 +101,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <h1 style={headingStyles}>Moving my blog....</h1>
+      <h1 style={headingStyles}>Moving....</h1>
     </main>
   );
 };
