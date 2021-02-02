@@ -7,6 +7,7 @@ class BlogColors {
     padua: "#8CAE9C",
     lightGray: "#C9CCCA",
     darkGray: "#111212",
+    green: "#04b85e",
   };
   static dark = {
     rose: "#FEA7B3",
@@ -16,6 +17,7 @@ class BlogColors {
     padua: "#D5F2E3",
     lightGray: "#646866",
     darkGray: "#111212",
+    green: "#7BE0AD",
   };
 }
 

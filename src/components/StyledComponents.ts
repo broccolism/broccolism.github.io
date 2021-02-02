@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import BlogColors from "../consts/colors";
 
 export const Row = styled.div`
   display: flex;
