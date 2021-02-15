@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 
 import { ReactComponent as BroccoliIcon } from "../assets/icons/broccoli.svg";
@@ -10,8 +10,19 @@ import { FaUserPlus } from "react-icons/fa";
 
 import { mobileWidth } from "../consts/numbers";
 import { Column, EmptyDiv, Row, SvgWrapper } from "./StyledComponents";
+import BlogColors from "../consts/colors";
+import { ThemeContext } from "../utils/ThemeContext";
+
+let barColor;
+let iconColor;
 
 function Header() {
+  const { theme, dark, toggle } = useContext(ThemeContext);
+
+  console.log("@@@@", theme);
+  barColor = theme.cream;
+  iconColor = BlogColors.light.darkGray;
+
   const [isMobile, setIsMobile] = useState<Boolean>(true);
   const [isIconsOpened, setIsIconsOpened] = useState<Boolean>(false);
 
@@ -51,34 +62,34 @@ function Header() {
   };
 
   return (
-    <Root>
+    <Root style={{ backgroundColor: theme.cream }}>
       <HeaderButton onClick={moveToHome}>
-        <SvgWrapper height="36px" width="36px" fill="#fff">
+        <SvgWrapper height="36px" width="36px" fill={iconColor}>
           <BroccoliIcon />
         </SvgWrapper>
       </HeaderButton>
       {isMobile ? (
         <div>
           <HeaderButton onClick={changeIsIconsOpened}>
-            <FaUserPlus size="24px" color="#fff" />
+            <FaUserPlus size="24px" color={iconColor} />
           </HeaderButton>
           {isIconsOpened ? (
             <OpenedIcons>
               <EmptyDiv height="12px" />
               <MobileIcon1 onClick={moveToGithub}>
-                <SvgWrapper height="24px" width="24px" fill="#000">
+                <SvgWrapper height="24px" width="24px" fill={iconColor}>
                   <GithubIcon />
                 </SvgWrapper>
               </MobileIcon1>
               <EmptyDiv height="12px" />
               <MobileIcon2 onClick={moveToRocketPunch}>
-                <SvgWrapper height="24px" width="24px" fill="#000">
+                <SvgWrapper height="24px" width="24px" fill={iconColor}>
                   <RocketPunchIcon />
                 </SvgWrapper>
               </MobileIcon2>
               <EmptyDiv height="12px" />
               <MobileIcon3 onClick={moveToInstagram}>
-                <SvgWrapper height="24px" width="24px" fill="#000">
+                <SvgWrapper height="24px" width="24px" fill={iconColor}>
                   <InstagramIcon />
                 </SvgWrapper>
               </MobileIcon3>
@@ -90,17 +101,17 @@ function Header() {
       ) : (
         <Row>
           <HeaderButton onClick={moveToGithub}>
-            <SvgWrapper height="24px" width="24px" fill="#fff">
+            <SvgWrapper height="24px" width="24px" fill={iconColor}>
               <GithubIcon />
             </SvgWrapper>
           </HeaderButton>
           <HeaderButton onClick={moveToRocketPunch}>
-            <SvgWrapper height="24px" width="24px" fill="#fff">
+            <SvgWrapper height="24px" width="24px" fill={iconColor}>
               <RocketPunchIcon />
             </SvgWrapper>
           </HeaderButton>
           <HeaderButton onClick={moveToInstagram}>
-            <SvgWrapper height="24px" width="24px" fill="#fff">
+            <SvgWrapper height="24px" width="24px" fill={iconColor}>
               <InstagramIcon />
             </SvgWrapper>
           </HeaderButton>
@@ -112,15 +123,12 @@ function Header() {
 
 export default Header;
 
-const backgroundColor = "#333";
-
 const Root = styled.div`
   padding: 16px 6vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: ${backgroundColor};
 `;
 
 const HeaderButton = styled.div`
@@ -128,7 +136,7 @@ const HeaderButton = styled.div`
   cursor: pointer;
 
   :hover {
-    background-color: ${backgroundColor};
+    background-color: ${iconColor};
     opacity: 0.4;
   }
 `;

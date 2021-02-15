@@ -1,4 +1,5 @@
 class BlogColors {
+  static white = "#FFFFFF";
   static light = {
     rose: "#EA5368",
     salmon: "#EFA19D",
