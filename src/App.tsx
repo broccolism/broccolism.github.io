@@ -7,7 +7,6 @@ import { ThemeContext } from "./utils/ThemeContext";
 function App() {
   return (
     <>
-      <Header />
       <Home />
     </>
   );

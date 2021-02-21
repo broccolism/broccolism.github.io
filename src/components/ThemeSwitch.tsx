@@ -11,25 +11,31 @@ import { ThemeContext } from "../utils/ThemeContext";
 function ThemeSwitch() {
   const { theme, dark, toggle } = useContext(ThemeContext);
 
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(dark);
 
   const changeIsDark = () => {
+    toggle();
     setIsDark(!isDark);
   };
 
   return (
-    <div>
+    <Root>
       <Switch
-        onChange={toggle}
+        width={36}
+        onChange={changeIsDark}
         checked={isDark}
-        onColor={BlogColors.light.darkGray}
-        offColor={BlogColors.light.cream}
-        checkedIcon={<MoonIcon />}
-        uncheckedIcon={<SunIcon size={24} />}
+        onColor={theme.text}
+        offColor={theme.text}
+        checkedIcon={<div />}
+        uncheckedIcon={<div />}
       />
-    </div>
+    </Root>
   );
 }
+
+const Root = styled.div`
+  transform: scale(0.8);
+`;
 
 const MoonIcon = styled(FaMoon)`
   margin: 6px;

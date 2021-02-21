@@ -18,7 +18,7 @@ interface EmptyDivProps {
   width?: string;
 }
 
-export const EmptyDiv = styled.div`
+export const StyledEmptyDiv = styled.div`
   width: ${(props: EmptyDivProps) => props.width ?? "auto"};
   height: ${(props: EmptyDivProps) => props.height ?? "auto"};
   opacity: 0;

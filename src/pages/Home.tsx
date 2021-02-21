@@ -1,19 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-
-import Header from "../components/Header";
-import ThemeSwitch from "../components/ThemeSwitch";
+import Layout from "../components/Layout";
 
 function Home() {
-  return (
-    <Root>
-      <ThemeSwitch />
-      making.....
-    </Root>
-  );
+  return <Layout subTitle="메인">haha</Layout>;
 }
 
-const Root = styled.div`
-  text-align: center;
-`;
 export default Home;
