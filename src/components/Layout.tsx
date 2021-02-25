@@ -9,26 +9,29 @@ import { ThemeContext } from "../utils/ThemeContext";
 
 type ComponentProps = {
   subTitle: string;
+  hideHeader?: boolean;
   children?: ReactNode;
 };
 
-function Layout({ subTitle, children }: ComponentProps) {
+function Layout({ subTitle, hideHeader, children }: ComponentProps) {
   const { theme } = useContext(ThemeContext);
 
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
 
+  const showHeader: boolean = !hideHeader ?? true;
+
   return (
     <>
       <Helmet>
         <title>{subTitle} - Brog</title>
         <meta name="name" content="Brog" />
-        <meta name="description" content="심심한 개발자의 블로그" />
+        <meta name="description" content="broccolism's blog" />
         <meta property="og:site_name" content="Brog" />
-        <meta property="og:description" content="Broccolism's Blog = Brog" />
+        <meta property="og:description" content="Broccolism + Blog = Brog" />
       </Helmet>
-      <Header />
+      {showHeader ? <Header /> : <div />}
       <Body background={theme.background}>{children}</Body>
       <Fixed>
         <FaArrowAltCircleUp

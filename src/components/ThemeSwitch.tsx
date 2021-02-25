@@ -3,9 +3,6 @@ import styled from "styled-components";
 
 import Switch from "react-switch";
 
-import BlogColors from "../consts/colors";
-import { FaMoon } from "react-icons/fa";
-import { BsBrightnessLowFill } from "react-icons/bs";
 import { ThemeContext } from "../utils/ThemeContext";
 
 function ThemeSwitch() {
@@ -35,16 +32,6 @@ function ThemeSwitch() {
 
 const Root = styled.div`
   transform: scale(0.8);
-`;
-
-const MoonIcon = styled(FaMoon)`
-  margin: 6px;
-  color: ${BlogColors.light.cream};
-`;
-
-const SunIcon = styled(BsBrightnessLowFill)`
-  margin: 2px;
-  color: ${BlogColors.light.darkGray};
 `;
 
 export default ThemeSwitch;

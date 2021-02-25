@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const themes = {
   dark: {
+    greetingBackground: "#0D1116",
     background: "#0D1116",
     text: "#C8D1D9",
     green: "#6CCFB5",
@@ -17,6 +18,7 @@ const themes = {
     darkGray: "#111212",
   },
   light: {
+    greetingBackground: "#96B949",
     background: "#FFFFFF",
     text: "#24292F",
     green: "#00B78F",
