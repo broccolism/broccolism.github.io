@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 
-import Header from "./components/Header";
+import GlobalFonts from "./fonts/fonts";
 import Home from "./pages/Home";
-import { ThemeContext } from "./utils/ThemeContext";
 
 function App() {
   return (
     <>
+      <GlobalFonts />
       <Home />
     </>
   );

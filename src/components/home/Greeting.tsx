@@ -8,12 +8,19 @@ function Greeting() {
   const { theme } = useContext(ThemeContext);
 
   const backgroundColor = theme.greetingBackground;
+  const nameColor = theme.white;
+
   return (
     <Root>
       <Content>
-        @broccolism
-        <br />
-        손영인&nbsp;&nbsp;Hailey Son
+        <Names color={nameColor}>
+          <div className="tag_name">@broccolism</div>
+          <br />
+          <div>
+            <span className="kr_name">손영인&nbsp;</span>
+            <span className="en_name">Hailey Son</span>
+          </div>
+        </Names>
       </Content>
       <LowestLayer>
         <AlphaLayer backgroundColor={backgroundColor} />
@@ -21,6 +28,26 @@ function Greeting() {
     </Root>
   );
 }
+
+const Names = styled.div<{ color: string }>`
+  font-family: "Gmarket";
+  font-weight: 700;
+  color: ${({ color }) => color};
+
+  .tag_name {
+    font-size: 20px;
+  }
+
+  .kr_name {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+
+  .en_name {
+    font-size: 20px;
+  }
+`;
+
 const Content = styled.div`
   position: absolute;
   top: 0;
