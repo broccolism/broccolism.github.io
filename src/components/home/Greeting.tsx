@@ -10,7 +10,11 @@ function Greeting() {
   const backgroundColor = theme.greetingBackground;
   return (
     <Root>
-      <Content>@broccolism</Content>
+      <Content>
+        @broccolism
+        <br />
+        손영인&nbsp;&nbsp;Hailey Son
+      </Content>
       <LowestLayer>
         <AlphaLayer backgroundColor={backgroundColor} />
       </LowestLayer>
