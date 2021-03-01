@@ -1,0 +1,37 @@
+import styled from "styled-components";
+
+type MainAxisType =
+  | "flex-start"
+  | "flex-end"
+  | "center"
+  | "stretch"
+  | "space-between"
+  | "space-around"
+  | "space-evenly";
+
+type CrossAxisType =
+  | "flex-start"
+  | "flex-end"
+  | "center"
+  | "stretch"
+  | "baseline";
+
+export const Row = styled.div<{
+  mainAxisAlignment?: MainAxisType;
+  crossAxisAlignment?: CrossAxisType;
+}>`
+  display: flex;
+  flex-direction: row;
+  align-items: ${({ crossAxisAlignment }) => crossAxisAlignment ?? "center"};
+  justify-content: ${({ mainAxisAlignment }) => mainAxisAlignment ?? "center"};
+`;
+
+export const Column = styled.div<{
+  mainAxisAlignment?: MainAxisType;
+  crossAxisAlignment?: CrossAxisType;
+}>`
+  display: flex;
+  flex-direction: column;
+  align-items: ${({ crossAxisAlignment }) => crossAxisAlignment ?? "center"};
+  justify-content: ${({ mainAxisAlignment }) => mainAxisAlignment ?? "center"};
+`;

@@ -13,7 +13,7 @@ type ComponentProps = {
   children?: ReactNode;
 };
 
-function Layout({ subTitle, hideHeader, children }: ComponentProps) {
+function PageLayout({ subTitle, hideHeader, children }: ComponentProps) {
   const { theme } = useContext(ThemeContext);
 
   const scrollToTop = () => {
@@ -32,7 +32,9 @@ function Layout({ subTitle, hideHeader, children }: ComponentProps) {
         <meta property="og:description" content="Broccolism + Blog = Brog" />
       </Helmet>
       {showHeader ? <Header /> : <div />}
-      <Body background={theme.background}>{children}</Body>
+      <Body background={theme.background} withHeader={showHeader}>
+        {children}
+      </Body>
       <Fixed>
         <FaArrowAltCircleUp
           className="button"
@@ -46,9 +48,9 @@ function Layout({ subTitle, hideHeader, children }: ComponentProps) {
   );
 }
 
-const Body = styled.div<{ background: string }>`
-  min-height: 90vh;
-  background-color: ${(props) => props.background};
+const Body = styled.div<{ background: string; withHeader: boolean }>`
+  min-height: ${({ withHeader }) => (withHeader ? "90vh" : "100vh")};
+  background-color: ${({ background }) => background};
 `;
 
 const Fixed = styled.div`
@@ -59,10 +61,9 @@ const Fixed = styled.div`
   bottom: 0;
   right: 0;
   margin: 0px 3vw 3vw 0px;
-
   .button {
     padding: 4px;
     cursor: pointer;
   }
 `;
-export default Layout;
+export default PageLayout;

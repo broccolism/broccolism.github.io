@@ -1,12 +1,12 @@
 import React from "react";
-import Layout from "../components/Layout";
-import Greeting from "../components/home/Greeting";
+import PageLayout from "../components/PageLayout";
+import BasicProfile from "../components/home/BasicProfile";
 
 function Home() {
   return (
-    <Layout subTitle="메인" hideHeader>
-      <Greeting />
-    </Layout>
+    <PageLayout subTitle="메인" hideHeader>
+      <BasicProfile />
+    </PageLayout>
   );
 }
 
