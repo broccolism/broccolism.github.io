@@ -16,7 +16,7 @@ type CrossAxisType =
   | "stretch"
   | "baseline";
 
-export const Row = styled.div<{
+export const StyledRow = styled.div<{
   mainAxisAlignment?: MainAxisType;
   crossAxisAlignment?: CrossAxisType;
 }>`
@@ -26,7 +26,7 @@ export const Row = styled.div<{
   justify-content: ${({ mainAxisAlignment }) => mainAxisAlignment ?? "center"};
 `;
 
-export const Column = styled.div<{
+export const StyledColumn = styled.div<{
   mainAxisAlignment?: MainAxisType;
   crossAxisAlignment?: CrossAxisType;
 }>`

@@ -9,7 +9,7 @@ import { ReactComponent as RocketPunchIcon } from "../assets/icons/rocket-punch.
 import { FaUserPlus } from "react-icons/fa";
 
 import { mobileWidth } from "../consts/numbers";
-import { Row, StyledEmptyDiv, SvgWrapper } from "./StyledComponents";
+import { StyledRow, StyledEmptyDiv, SvgWrapper } from "./atoms/index";
 import { ThemeContext } from "../utils/ThemeContext";
 
 let barColor;
@@ -99,7 +99,7 @@ function Header() {
           )}
         </div>
       ) : (
-        <Row>
+        <StyledRow>
           <HeaderButton onClick={moveToGithub}>
             <SvgWrapper height="24px" width="24px" fill={iconColor}>
               <GithubIcon />
@@ -115,7 +115,7 @@ function Header() {
               <InstagramIcon />
             </SvgWrapper>
           </HeaderButton>
-        </Row>
+        </StyledRow>
       )}
     </Root>
   );
