@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.zoomkoding.com/sitemap.xml
-Host: https://www.zoomkoding.com
+Sitemap: https://broccolism.github.io/sitemap.xml
+Host: https://broccolism.github.io
