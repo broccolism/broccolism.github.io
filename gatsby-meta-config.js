@@ -77,6 +77,7 @@ module.exports = {
         techStack: ['gatsby', 'react'],
         thumbnailUrl: 'blog.png',
         links: {
+          //
           // post: '/gatsby-starter-zoomkoding-introduction',
           // github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
           // demo: 'https://www.zoomkoding.com',
